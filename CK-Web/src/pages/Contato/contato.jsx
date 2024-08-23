@@ -1,4 +1,4 @@
-import { AppContainer } from "../Home/App";
+import { AppContainer } from "../../App";
 import Header from "../../components/header";
 import styled from "styled-components";
 import instagram from '../../images/instagram.svg'

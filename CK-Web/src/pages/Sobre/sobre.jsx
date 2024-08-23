@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AppContainer } from "../Home/App";
+import { AppContainer } from "../../App";
 import Header from "../../components/header";
 import { Botao } from "../../components/btn";
 import { TituloContainer } from "../../components/section-titulo";
