@@ -6,6 +6,7 @@ import {createBrowserRouter} from 'react-router-dom'
 import {RouterProvider} from 'react-router-dom'
 import PaginaSobre from './pages/Sobre/sobre'
 import PaginaContato from './pages/Contato/contato'
+import styled from 'styled-components'
 
 const router = createBrowserRouter([
   {
