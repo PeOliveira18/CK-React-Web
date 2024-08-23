@@ -4,7 +4,6 @@ import Header from "../../components/header";
 import { Botao } from "../../components/btn";
 import { TituloContainer } from "../../components/section-titulo";
 import { TextosContainer } from "../../components/section-titulo";
-import { ImagemContainer } from "../../components/section-titulo";
 import foto1 from '../../images/sobre1.jpeg'
 import foto2 from '../../images/sobre2.jpeg'
 
