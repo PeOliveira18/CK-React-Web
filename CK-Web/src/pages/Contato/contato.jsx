@@ -104,8 +104,8 @@ function PaginaContato() {
                 <DuvidasTexto>
                     <h1>Duvidas e suporte, entre em contato:</h1>
                     <Imagens>
-                        <a href="https://www.instagram.com/p.ooliveira05/" target="_blank"><img src={twitter} alt="Logo Twitter"/></a>
-                        <a href="https://x.com/pe_oliveira6" target="_blank"><img src={instagram} alt="Logo Instagram"/></a>
+                        <a href="https://x.com/pe_oliveira6" target="_blank"><img src={twitter} alt="Logo Twitter"/></a>
+                        <a href="https://www.instagram.com/p.ooliveira05/" target="_blank"><img src={instagram} alt="Logo Instagram"/></a>
                         <a href="https://discord.com" target="_blank"><img src={discord} alt="Logo Discord"/></a>
                     </Imagens>
                 </DuvidasTexto>
