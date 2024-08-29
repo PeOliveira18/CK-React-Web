@@ -7,7 +7,7 @@ import Home from './pages/Home/home'
 
 export const AppContainer = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 2000px;
     background-color: bisque;
     overflow-x: hidden;
     color: black;

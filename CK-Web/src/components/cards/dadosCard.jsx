@@ -1,7 +1,8 @@
-import youtube from '../../images/youtube.jpg'
-import tiktok from '../../images/tiktok.jpg'
-import facebook from '../../images/facebook.jpg'
-import instagram from '../../images/instagram.jpg'
+import youtube from '../../images/youtube.png'
+import tiktok from '../../images/tiktok.png'
+import facebook from '../../images/facebook.png'
+import instagram from '../../images/instagram.png'
+
 
 export const DadosCard = [
     {

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Botao } from "../btn";
-import imagem from '../../images/foto.jpg'
-
+import imagem from '../../images/foto-home.png'
 export const TituloContainer = styled.div`
     display: flex;
     justify-content: center;    
@@ -41,7 +40,7 @@ function SectionTitulo() {
                 <Botao>Comecar agora</Botao>
             </TextosContainer>
             <ImagemContainer>
-                <img src={imagem} alt="" />
+                <img src={imagem} alt="Foto do menu home" />
             </ImagemContainer>
         </TituloContainer>
     );

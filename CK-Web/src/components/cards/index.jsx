@@ -20,6 +20,16 @@ const Card = styled.div`
         color: white;
     }
 
+    div{
+        display: flex;
+        justify-content: space-between
+    }
+
+    img{
+        width: 32px;
+        height: 32px;
+    }
+
     p{
         font-size: 18px;
     }
@@ -34,8 +44,10 @@ function CardsHome() {
         <CardsContainer>
             {CardHome.map((props) => (
                 <Card cor = {props.cor}>
-                    <h1>{props.numero}</h1>
-                    {/* <img src={props.logo}/> */}
+                    <div>
+                        <h1>{props.numero}</h1>
+                        <img src={props.logo}/>
+                    </div>
                     <h2>{props.titulo}</h2>
                     <p>{props.descricao}</p>
                 </Card>
