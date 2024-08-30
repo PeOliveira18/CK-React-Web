@@ -53,7 +53,7 @@ function PaginaSobre(props) {
             corFundo: '#FFFFFF',
             imagem: logo    
         },
-    ]
+    ]    
 
     return ( 
         <AppContainer>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { BotaoPlanos } from "../btn-planos";
-import { Botaocadastro } from "../botao-cadastro";
+import { BotaoCadastro } from "../botao-cadastro";
 
 
 const CardContainer = styled.div`
@@ -83,7 +83,7 @@ function CardsPlano({dados}) {
             texto: 'Entre em contato'
         },
     ]
-
+    
     return ( 
 
         <>
@@ -118,7 +118,12 @@ function CardsPlano({dados}) {
                                     {content.imagem && <img src={content.imagem} alt="Descricao Card"/>}
                                 </div>          
                                 <div className="btn-cadastro">
-                                    <Botaocadastro>Testando</Botaocadastro>
+                                    <BotaoCadastro
+                                        bgColor = {coresCadastro[card].bgColor}
+                                        color = {coresCadastro[card].color}
+                                    >
+                                        {coresCadastro[card].texto}
+                                    </BotaoCadastro>
                                 </div>
                             </ParteBaixo>
                         </CardContainer>
