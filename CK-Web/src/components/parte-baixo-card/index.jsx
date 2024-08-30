@@ -4,7 +4,7 @@ export const ParteBaixo = styled.div`
     display: flex;
     flex-direction: column;
     width: 270px;
-    height: 315px;
+    height: 330px;
     background-color: white;
 
     .descricao{

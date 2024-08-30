@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const  ParteCima = styled.div`
 width: 240px;
-height: 72px;
+height: 50px;
 background-color: ${dados => dados.corCima || 'white'};
 color: black;
 border-top-left-radius: 30px;

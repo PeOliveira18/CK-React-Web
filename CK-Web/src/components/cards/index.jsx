@@ -9,12 +9,13 @@ const CardsContainer = styled.div`
 `
 
 const Card = styled.div`
-    margin: 50px 0px 0px 20px;
+    margin: 50px 20px 0px 20px;
     border-radius: 16px;
     background-color: ${props => props.cor};
     padding: 16px 34px;
-    width: 309px;
+    width: 280px;
     height: 326px;
+    
     
     h1{
         color: white;
@@ -37,12 +38,11 @@ const Card = styled.div`
 
 
 
-function CardsHome() {
-    const [CardHome, setCardHome] = useState(DadosCard)
+function CardsHome({conteudo}) {
     
     return (  
         <CardsContainer>
-            {CardHome.map((props) => (
+            {conteudo.map(props => (
                 <Card cor = {props.cor}>
                     <div>
                         <h1>{props.numero}</h1>

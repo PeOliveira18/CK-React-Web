@@ -3,6 +3,7 @@ import Header from '../../components/header'
 import SectionTitulo from '../../components/section-titulo'
 import CardsHome from '../../components/cards'
 import { AppContainer } from '../../App'
+import { DadosCard } from '../../components/cards/dadosCard'
 
 
 
@@ -13,7 +14,7 @@ function Home() {
     <AppContainer>      
         <Header></Header>
         <SectionTitulo></SectionTitulo>
-        <CardsHome></CardsHome>
+        <CardsHome conteudo = {DadosCard}></CardsHome>
     </AppContainer>
     )
 }
