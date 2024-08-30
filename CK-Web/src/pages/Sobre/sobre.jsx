@@ -38,15 +38,15 @@ function PaginaSobre(props) {
             titulo: 'Individual',
             corFundo: '#6975E8',
             descricao: '1 Usuario',
-            botao1: '10 Videos R$15'
+            botao1: '10 Videos'
         },
         {
             titulo: 'Profissional - Times',
             corFundo: '#FFFFFF',
             descricao: '1-10 Usuarios',
             descricao2: '+10 Usuarios',
-            botao1: 'Videos Ilimitados R$40',
-            botao2: 'Videos Ilimitados R$20'
+            botao1: 'Videos Ilimitados',
+            botao2: 'Videos Ilimitados'
         },
         {
             titulo: 'Corporativo',

@@ -11,4 +11,8 @@ export const BotaoCadastro = styled.button`
     border: 1px solid black;
     background-color: ${props => props.bgColor}; 
     color: ${props => props.color};
+
+    &:focus{
+        outline: none;
+    }
 `

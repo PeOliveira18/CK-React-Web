@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import { BotaoPlanos } from "../btn-planos";
 import { BotaoCadastro } from "../botao-cadastro";
+import btnDetalhes from '../../images/detalhes.png'
+import { ParteCima } from "../parte-cima-card";
+import { ParteBaixo } from "../parte-baixo-card";
 
 
 const CardContainer = styled.div`
     margin-top: 30px;    
     margin-left: 30px;    
+    margin-bottom: 30px;    
 
     .divisor{
         height: 1px;
@@ -14,55 +18,6 @@ const CardContainer = styled.div`
         
     }
 `
-
-const ParteCima = styled.div`
-    width: 240px;
-    height: 60px;
-    background-color: ${dados => dados.corCima || 'white'};
-    color: black;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    padding: 15px;
-    text-align: center;
-` 
-
-const ParteBaixo = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    height: 315px;
-    background-color: white;
-
-    .descricao{
-    display: flex;
-    flex-direction: column;
-    font-weight: lighter;
-    padding-left: 20px;
-    flex-grow: 1
-    }
-
-    .descricao p{
-        color: black;
-    }
-
-    .imagem-card{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
-        flex-grow: 1;
-    }
-
-    .btn-cadastro{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-    
-`
-
-
 
 function CardsPlano({dados}) {
 
@@ -99,17 +54,20 @@ function CardsPlano({dados}) {
                                     <p>{content.descricao}</p>
                                     {content.botao1 && card === 0 && (
                                             <BotaoPlanos>
-                                                <p>{content.botao1}</p>
+                                                <p>{content.botao1}<strong> R$15</strong></p>
+                                                <img src={btnDetalhes} alt="Imagem Descritiva Detalhes" />
                                             </BotaoPlanos>
                                     )}
                                     {content.botao2 && card === 1 && (
                                         <div>
                                             <BotaoPlanos>
-                                                <p>{content.botao1}</p>
+                                                {content.botao1}<strong> R$40</strong>
+                                                <img src={btnDetalhes} alt="Imagem Descritiva Detalhes" />
                                             </BotaoPlanos>
                                             <p>{content.descricao2}</p>
                                             <BotaoPlanos>
-                                                <p>{content.botao1}</p>
+                                                {content.botao1} <strong> R$20</strong>
+                                                <img src={btnDetalhes} alt="Imagem Descritiva Detalhes" />
                                             </BotaoPlanos>
                                         </div>
                                     )}
